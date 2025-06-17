@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counting Tool - Accurate, Fast and Easy Word Counter</title>
+    <meta name="description" content="Easily count your words with our accurate, fast, and easy word counting tool. Perfect for writers, students, and professionals. Additional features include character counting, character counting without whitespace, top keywords counting, and frequency of each word">
+    <meta property="og:title" content="Word Counting Tool - Accurate, Fast and Easy Word Counter" />
+    <meta property="og:description" content="Easily count your words with our accurate, fast, and easy word counting tool. Perfect for writers, students, and professionals." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourdomain.com/" />
+    <meta property="og:image" content="https://yourdomain.com/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Word Counting Tool - Accurate, Fast and Easy Word Counter" />
+    <meta name="twitter:description" content="Easily count your words with our accurate, fast, and easy word counting tool. Perfect for writers, students, and professionals." />
+    <meta name="twitter:image" content="https://yourdomain.com/og-image.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.min.css">
+    <meta name="google-site-verification" content="zGjyKdPbb8oCsPDIJS86l_ebOfm1STMnoJj4_gSCozU" />
+    <meta name="msvalidate.01" content="990BFF863097D835613ABD4E27BA1627" />
+  </head>
+  <body class="body">
+    <main class="word-count-tool">
+      <header>
+        <span class="logo" aria-label="Word Counter Logo">
+          <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="27" cy="27" r="27" fill="#4f8cff"/>
+            <text x="50%" y="56%" text-anchor="middle" fill="#fff" font-size="22" font-family="Poppins, Arial, sans-serif" dy=".3em">WC</text>
+          </svg>
+        </span>
+        <h1>Word Counter – Instantly Analyze Your Text</h1>
+        <p>Paste or type your text below to get instant word and character counts, discover your top keywords, and download your work. Perfect for writers, students, and professionals who want fast, accurate results.</p>
+      </header>
+      <section class="input-area">
+        <label for="text-area" class="visually-hidden">Enter your text to count words and characters</label>
+        <textarea id="text-area" aria-label="Text area for word counting" placeholder="Paste or type your text here..."></textarea>
+        <div class="input-actions">
+          <button id="clear-btn" class="btn" aria-label="Clear text area">Clear</button>
+          <label for="file-upload" class="file-upload-label" tabindex="0">Choose File</label>
+          <input type="file" id="file-upload" accept=".txt" aria-label="Upload text file" />
+          <button id="download-btn" class="btn" aria-label="Download text as file">Download Text</button>
+        </div>
+        <div style="font-size:0.98em;color:#888;margin-top:6px;">Upload a .txt file or download your text anytime.</div>
+      </section>
+      <section class="output-area">
+        <div class="word-count"><strong>Word Count:</strong> <span id="word-count">0</span></div>
+        <div class="character-count"><strong>Character Count:</strong> <span id="character-count">0</span></div>
+        <div class="character-count-without-spaces"><strong>Character Count (No Spaces):</strong> <span id="character-count-without-spaces">0</span></div>
+        <div id="top-keywords-block">
+          <div id="top-keywords-title"><strong>Top Keywords:</strong></div>
+          <div id="top-keywords-list"></div>
+        </div>
+      </section>
+      <footer class="footer">
+        <p style="font-size:0.98em;">Made with ❤️ by <a target="_blank" href="https://chat.openai.com/">ChatGPT: OpenAI</a> &nbsp;|&nbsp; <a target="_blank" href="https://rafayethossain.github.io/">Rafayet Hossain</a></p>
+      </footer>
+    </main>
+    <script src="script.min.js"></script>
+  </body>
+</html>
+
+<!--
+Improvements made:
+- Added lang, charset, and viewport meta tags for accessibility and responsiveness.
+- Used semantic HTML5 elements: <main>, <header>, <section>, <footer>.
+- Added ARIA labels and a visually hidden label for accessibility.
+- Improved structure for better SEO and screen reader support.
+- Added Open Graph and Twitter meta tags for better SEO and social sharing.
+- Integrated file upload and download functionality for enhanced user experience.
+- Improved site copy for better UX: clearer headline, concise instructions, and friendlier, more helpful language throughout the index page.
+-->
